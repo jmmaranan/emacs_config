@@ -1,0 +1,6 @@
+# ignore emacs autosave
+\#*#
+
+# ignore files specified below
+*~
+*.dat

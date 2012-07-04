@@ -14,11 +14,11 @@ Mostly for Python Development in Windows 7
 ## Requirements and Must-haves ##
 Most of the Emacs packages in this config is already in but just for you to replicate it and myself. Here are the things that need to be in your Windows 7 system.
 
-* MinGW - <http://www.mingw.org>. Use the windows installer. Add to your PATH. Then edit `distutils.cfg` to add :
+* MinGW - <http://www.mingw.org>. Use the windows installer. Add to your PATH. Then edit `distutils.cfg` from your Python install (not the virtualenv) to add :
 
 ~~~
-[compiler]
-mingw-32
+[build]
+compiler=mingw32
 ~~~
 
 * Github for Windows. <http://windows.github.com/>. I only use the powershell.

@@ -12,7 +12,8 @@ Mostly for Python Development in Windows 7
 ~~~
 
 ## Requirements and Must-haves ##
-Most of the Emacs packages in this config is already in but just for you to replicate it and myself. Here are the things that need to be in your Windows 7 system.
+Most of the Emacs packages in this config are already checked in -- but just for the purpose of recreating the environment. 
+Here are the things that need to be in your Windows 7 system.
 
 * MinGW - <http://www.mingw.org>. Use the windows installer. Add to your PATH. Then edit `distutils.cfg` from your Python install (not the virtualenv) to add :
 
